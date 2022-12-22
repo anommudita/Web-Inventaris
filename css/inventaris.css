@@ -1,0 +1,306 @@
+/* Start CSS */
+
+
+
+/* background */
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/Background.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+/* end background */
+
+/* Start logo */
+.undiksha {
+    background-image: url(../img/unnes.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    margin: 0 auto;
+    /* top: 74px;
+    left: 43%;
+    right: 43%; */
+    width: 178px;
+    height: 178px;
+    z-index: 10000;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+}
+
+/* end logo */
+
+/* Start Form */
+.form-container {
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    /* top: 163px; */
+    width: 402px;
+    height: 467px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* end Form */
+
+/* Start Welcome */
+.welcome {
+    font-family: 'Poppins', sans-serif, monospace;
+    color: #263238;
+    font-weight: lighter;
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* end welcome */
+
+
+/* Start Shape1 */
+.shape1 {
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    background-color: #292929;
+    z-index: 200;
+    left: 45px;
+    top: 120px;
+}
+
+/* end Shape1*/
+
+
+/* Start Shape2 */
+.shape2 {
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    background-color: #292929;
+    z-index: 300;
+    left: 293px;
+    top: 120px;
+}
+
+/* end Shape2 */
+
+/* Start form username & password */
+.new-chat-window {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background: #ffffff;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    z-index: 2;
+}
+
+.new-chat-window .fa {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.new-chat-window-input {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* end form username & password */
+
+/* Start remember */
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox__input {
+    display: none;
+}
+
+.checkbox__box {
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    transition: background 0.15s border-color 0.15s;
+}
+
+.checkbox__box::after {
+    content: '\2714';
+    color: #ffffff;
+    transform: scale(0);
+    transition: transform 0.15s;
+}
+
+.checkbox__input:checked+.checkbox__box {
+    background-color: #292929;
+    border-color: #444444;
+}
+
+.checkbox__input:checked+.checkbox__box:after {
+    transform: scale(1);
+}
+
+/* End Remember */
+
+/* Start button */
+
+
+.button:active {
+    background-color: #000000;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif, monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 22px auto;
+    text-align: center;
+    width: 365px;
+    Height: 55px;
+    background-color: #292929;
+    border: 0;
+    color: white;
+}
+
+/* End button */
+
+/* start footer login */
+.footer-login {
+    text-align: center;
+    font-family: 'Poppins', sans-serif, monospace;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+/* end footer login */
+
+/* start error */
+span.error {
+    /* position: absolute; */
+    color: red;
+}
+
+.slides {
+    width: 8000px !important;
+}
+
+/* end error */
+
+
+
+/* CSS untuk graph */
+.background-graph {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.sidebar-kepala {
+    background-color: #292929;
+    width: 320px;
+    height: 100vh;
+    /* position: absolute; */
+}
+
+
+.teknik {
+    /* margin-top: 100px; */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-universitas {
+    font-weight: bold;
+    color: black;
+    margin: 10px 10px 10px 10px;
+    font-size: 10px;
+}
+
+
+.menu-navbar {
+    margin-left: 900px;
+    font-weight: bold;
+}
+
+.undiksha1 {
+    background-image: url(../img/unnes.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px !important;
+    /* position: absolute; */
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+}
+
+.profil {
+    margin: 20px auto auto auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../img/profil.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.items {
+    padding: 0;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    list-style: none;
+    color: #ffffff;
+    background-color: #292929;
+    font-weight: bolder;
+}
+
+.act {
+    background-color: #ffffff69;
+}
+
+header {
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: #292929;
+}
+
+.box {
+    width: 876px;
+    padding: 10px;
+    /* height: 354px; */
+    background-color: #F1F1F1;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.25));
+}
+
+.renggang {
+    height: 50px;
+}
+
+/* end Graph */
